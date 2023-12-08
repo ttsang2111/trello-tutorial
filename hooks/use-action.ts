@@ -50,7 +50,7 @@ export const useAction = <TInput, TOutput> (
         },
         [action, options]
     );
-
+    
     return {
         execute,
         isLoading,
